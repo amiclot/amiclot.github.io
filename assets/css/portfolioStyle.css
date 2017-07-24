@@ -1,0 +1,46 @@
+.portfolioImage{
+	float: left;
+	margin: 4% 4% 0% 4%;
+
+}
+
+
+.imageText{
+	background-color: #4aaaa5;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	margin: 0px;
+	position: relative;
+	bottom: 100px;
+
+}
+
+.zeroPaddingRight{
+	padding-right: 0;
+}
+
+.zeroPaddingLeft{
+	padding-left: 0;
+}
+
+/*fix for title blocks on mobile screens iPhone5 to iPhone 6 Plus */
+
+@media (max-width: 414px) {
+	h2{
+		font-size: 90%;
+	}
+
+	.imageText{
+		bottom:50px;
+	}
+}
+
+/*fix for title blocks on iPadpro*/
+
+@media screen and (width:1024px){
+	h2{
+		font-size: 1.6em;
+	}
+}

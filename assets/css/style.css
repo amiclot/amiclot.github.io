@@ -1,0 +1,118 @@
+.image{
+	margin:3%;
+	max-height: 25%;
+	max-width: 25%;
+	float: left;
+}
+
+.imageSocial{ 
+	max-height: 20%;
+	max-width: 20%;
+	margin: 5% 5% 5% 5%;
+	float: left;
+}
+
+
+.connectMeHeader{
+	background-color: #ffffff;
+	color:#4aaaa5;
+	border-bottom: solid #cccccc;
+	text-align: center;
+	padding-bottom: 7%;
+}
+
+.entireContentArea{
+	background-image: url(../images/vertical-waves.png)
+}
+
+.navbarOverride{
+	margin-bottom: 0%;
+	background-color: #ffffff;
+
+}
+
+.addTopMargin4{
+	margin-top: 4%;
+}
+
+.addTopMargin8{
+	margin-top: 8%;
+}
+
+p{
+	margin: 5% 5% 0% 5%;
+}
+
+.social{
+	overflow: hidden;
+	margin-left: 9%;
+}
+
+.footer{
+	clear:both;
+	background-color: #666666;
+	border-top: solid #4aaaa5;
+	border-width:5%;
+	text-align: center;
+	color:#ffffff;
+	padding-top:3%;
+	padding-bottom: 3%;
+}
+
+.aboutMeHeader{
+	background-color: #ffffff;
+	color:#4aaaa5;
+	border-bottom: solid #cccccc;
+	text-align: left;
+	padding-bottom: 3%;
+}
+
+.nameBox{
+	float: left;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	padding: 1%;
+	font-weight: 900;
+	font-size: 28px;
+	margin-left: 4%;
+
+
+
+}
+
+.paddingTop{
+	padding-top: .5%;
+}
+
+.widthThird{
+	max-width: 30%;
+	float: right;
+}
+
+.hover-rotate { margin-left: 19px; }
+
+.hover-rotate:hover {
+  -ms-transform: rotate(-10deg);
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  -o-transform: rotate(-10deg);
+  transform: rotate(-10deg);
+  
+}
+
+.hover-outline { 
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+.hover-outline:hover {
+  outline: 3px solid grey;
+  outline-offset: 0px;
+
+}
+
+.addTopMargin5{
+	margin-top: 5%;
+}
+
