@@ -37,10 +37,26 @@
 	}
 }
 
-/*fix for title blocks on iPadpro*/
+/*fix for title blocks on iPad Pro and fix to center images*/
 
 @media screen and (width:1024px){
 	h2{
 		font-size: 1.6em;
 	}
+
+	.portfolioImage{
+		margin: 4% 4% 0% 22%;
+
+	}
+
+}
+
+/*fix to center images on iPad*/
+
+@media screen and (width: 768px){
+	.portfolioImage{
+		margin: 4% 4% 0% 27%;
+
+	}
+
 }

@@ -116,3 +116,6 @@ p{
 	margin-top: 5%;
 }
 
+.overFlowHidden{
+	overflow: hidden;
+}
