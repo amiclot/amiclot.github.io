@@ -1,86 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- #1 establishes the character set. That's required.
- 
-#2 tells IE browsers to NOT render pages in that most unfortunate setting called Compatibiility Mode. It's optional but highly recommended.  If you don't believe me, try viewing a page in IE with Compatibility Mode turned on and you'll soon see why it's good to have this meta tag in place.
- 
-#3 is the viewport metatag for viewing on mobile devices. Again it's optional but highly recommend. -->
-	<title>Adam Miclot's Portfolio</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<title>Transcend BJJ</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  	<script src="https://code.jquery.com/jquery.js"></script>
+  	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
 <body>
-	<nav class="navbar navbar-default navbar-fixed-top navbarOverride">
-  		<div class="container-fluid">
-    		<div class="navbar-header widthThird">
-      			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        			<span class="icon-bar"></span>
-        			<span class="icon-bar"></span>
-        			<span class="icon-bar"></span>                        
-      			</button>
-      			
-    		</div>
-    		<div class="nameBox">Adam Miclot</div>
-    		<div class="collapse navbar-collapse" id="myNavbar">
-      			<ul class="paddingTop nav navbar-nav navbar-right">
-        			<li class="active"><a href="index.html">Home</a></li>
-        			<li><a href="portfolio.html">Portfolio</a> </li>
-        			<li><a href="contact.html">Contact</a></li>
-      			</ul>
-    		</div>
-  		</div>
-	</nav>
-
-
-	<div class="entireContentArea">
-		<div class="container addTopMargin5">
-			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-md-8">
-					<div class="panel panel-default addTopMargin4">
-						<div class="panel-body">
-							<h1 class="aboutMeHeader">About Me</h1>
-							<img src="assets/images/Profile_Pic.jpg" class="img-responsive image" alt="Profile_Pic">
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut hendrerit quam. Praesent ut urna eu lorem suscipit hendrerit. Aliquam erat volutpat. Praesent ultricies orci et lectus vulputate, finibus dignissim nulla pulvinar. </p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut hendrerit quam. Praesent ut urna eu lorem suscipit hendrerit. Aliquam erat volutpat. Praesent ultricies orci et lectus vulputate, finibus dignissim nulla pulvinar. </p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut hendrerit quam. Praesent ut urna eu lorem suscipit hendrerit. Aliquam erat volutpat. Praesent ultricies orci et lectus vulputate, finibus dignissim nulla pulvinar. </p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut hendrerit quam. Praesent ut urna eu lorem suscipit hendrerit. Aliquam erat volutpat. Praesent ultricies orci et lectus vulputate, finibus dignissim nulla pulvinar. </p>
-						</div>
-					</div>
-
-				</div>
-				<div class="col-xs-12 col-sm-12 col-md-4">
-					<div class="panel panel-default addTopMargin8">
-						<div class="panel-body">
-							<h1 class="connectMeHeader">Connect with Me</h1>
-							<div class="social">
-								<a href="https://github.com/amiclot" target="_blank"><img class="img-fluid imageSocial hover-rotate" src="assets/images/git.png" alt="git logo"></a>
-								<a href="https://www.linkedin.com/in/adam-miclot-4ba44413/" target="_blank" alt="linkedin logo"><img class="img-fluid imageSocial hover-rotate" src="assets/images/link.png"></a>
-								<a href="https://stackoverflow.com/users/8233581/adam-miclot" target="_blank"><img class="img-fluid imageSocial hover-rotate" src="assets/images/stack.png" alt="stackoverflow logo"></a>
-							</div>
-						</div>
-					</div>
-
-				</div>
-					
+	
+	<div class = "container">
+		<div class = "row">
+			<div class = "col-xs-12">
+				<img class = "logoImg img-responsive center-block" src="assets/images/trlogo.jpg">
 			</div>
-
 		</div>
+		<div class = "row">
+			<div class = "center-block">
+				<div class = "col-xs-4">
+					<a href="#"><button class="btn myButton center-block"><center>FILMS</center></button></a>
+				</div>
+				<div class = "col-xs-4">
+					<a href="./dashboard.html"><button class="btn myButton center-block"><center>ACADEMY</center></button></a>
+				</div>
+				<div class = "col-xs-4">
+					<a href="#"><button class="btn myButton center-block">STORE</button></a>
+				</div>
+			</div>
+		</div>
+
+
 	</div>
-
-	<footer class="container-fluid">
-			<div class="row footer">
-				&copy; Copyright 2017 Adam Miclot
-			</div>	
-	</footer>
-
-
 
 
 </body>
