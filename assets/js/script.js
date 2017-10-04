@@ -11,5 +11,20 @@ $(document).ready(function() {
     $('nav .text-menu a').click(function() {
         $('.text-menu').toggleClass('menu-appear');
     });
+
+    $(".arrow-right").bind("click", function (event) {
+        event.preventDefault();
+        $(".vid-list-container").stop().animate({
+            scrollLeft: "+=336"
+        }, 750);
+    });
+    $(".arrow-left").bind("click", function (event) {
+        event.preventDefault();
+        $(".vid-list-container").stop().animate({
+            scrollLeft: "-=336"
+        }, 750);
+    });
+
+    
     
 });
