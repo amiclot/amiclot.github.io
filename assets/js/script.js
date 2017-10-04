@@ -12,13 +12,13 @@ $(document).ready(function() {
         $('.text-menu').toggleClass('menu-appear');
     });
 
-    $(".arrow-right").bind("click", function (event) {
+    $(".arrow-right").on("click", function (event) {
         event.preventDefault();
         $(".vid-list-container").stop().animate({
             scrollLeft: "+=336"
         }, 750);
     });
-    $(".arrow-left").bind("click", function (event) {
+    $(".arrow-left").on("click", function (event) {
         event.preventDefault();
         $(".vid-list-container").stop().animate({
             scrollLeft: "-=336"
