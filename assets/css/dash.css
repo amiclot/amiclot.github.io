@@ -146,9 +146,7 @@ nav .fa {
     margin-top: 3.75vh;
 }
 
-.topMargin{
-    margin-top: 10%;
-}
+
 
 .topMargin2{
     margin-top: 4.7832369%;
@@ -175,10 +173,11 @@ nav .fa {
 }
 
 
-.imgMargin{
-    
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
+.image{
+    margin:3%;
+    max-height: 40%;
+    max-width: 40%;
+    float: left;
 }
 
 label{
