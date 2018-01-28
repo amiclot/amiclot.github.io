@@ -1,0 +1,54 @@
+body{
+	background-color: #fff;
+}
+
+.container{
+	margin-bottom: 5%;
+}
+
+.logoImg{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	width: 50%;
+
+}
+
+.myButton {
+	-moz-box-shadow: 6px 12px 21px 0px #848484;
+	-webkit-box-shadow: 6px 12px 21px 0px #848484;
+	box-shadow: 6px 12px 21px 0px #848484;
+	background-color:transparent;
+	max-width: 100%;
+	cursor:pointer;
+	color:black;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2.5vw;
+	padding:15%;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:transparent;
+}
+
+
+ a:hover{
+    text-decoration: none;
+}
+
+.btn{
+	border-radius: 0px;
+	border:0px;
+}
+
+
+
+@media screen and (width: 1024px){
+    .container {
+        margin-top: 35%;
+    }
+}
+
+/*add media queries to center landing page on all formats*/
+
+
+
